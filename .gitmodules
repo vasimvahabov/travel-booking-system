@@ -1,21 +1,21 @@
 [submodule "travel-booking-system-config-repo"]
 	path = travel-booking-system-config-repo
-	url = https://github.com/vasimvahabov/travel-booking-system-config-repo.git
+	url = ../travel-booking-system-config-repo.git
 [submodule "travel-booking-system-deployment"]
 	path = travel-booking-system-deployment
-	url = https://github.com/vasimvahabov/travel-booking-system-deployment.git
+	url = ../travel-booking-system-deployment.git
 [submodule "travel-booking-system-edge-server"]
 	path = travel-booking-system-edge-server
-	url = https://github.com/vasimvahabov/travel-booking-system-edge-server.git
+	url = ../travel-booking-system-edge-server.git
 [submodule "travel-booking-system-flight-service"]
 	path = travel-booking-system-flight-service
-	url = https://github.com/vasimvahabov/travel-booking-system-flight-service.git
+	url = ../travel-booking-system-flight-service.git
 [submodule "travel-booking-system-flight-booking-service"]
 	path = travel-booking-system-flight-booking-service
-	url = https://github.com/vasimvahabov/travel-booking-system-flight-booking-service.git
+	url = ../travel-booking-system-flight-booking-service.git
 [submodule "travel-booking-system-payment-service"]
 	path = travel-booking-system-payment-service
-	url = https://github.com/vasimvahabov/travel-booking-system-payment-service.git
+	url = ../travel-booking-system-payment-service.git
 [submodule "travel-booking-system-config-service"]
 	path = travel-booking-system-config-service
-	url = https://github.com/vasimvahabov/travel-booking-system-config-service.git
+	url = ../travel-booking-system-config-service.git
