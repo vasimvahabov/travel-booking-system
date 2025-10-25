@@ -54,6 +54,14 @@ Authorization: Bearer {{access_token}}
 DELETE localhost:8899/api/v1/flights/AA133
 Authorization: Bearer {{access_token}}
 
+### request app info
+GET localhost:8899/app/info
+Authorization: Bearer {{access_token}}
+
+### post request actuater refresh
+POST localhost:8899/actuator/refresh
+Authorization: Bearer {{access_token}}
+
 ### create a flight
 POST localhost:8899/api/v1/flights
 Content-Type: application/json
