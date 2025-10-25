@@ -1,0 +1,6 @@
+### authenticate via keycloak
+POST http://localhost:4455/realms/travel-booking-system/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+#client_id={{keycloak-client-id}}&client_secret={{keycloak-client-secret}}&grant_type=client_credentials
+client_id={{keycloak-client-id}}&client_secret={{keycloak-client-secret}}&grant_type=password&username={{keycloak-username-employee}}&password={{keycloak-password-employee}}

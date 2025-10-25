@@ -1,0 +1,78 @@
+### create a flight
+POST localhost:8899/api/v1/flights
+Content-Type: application/json
+Authorization: Bearer {{access_token}}
+
+{
+
+  "airplaneId" : 1,
+
+  "number" : "AA144",
+
+  "departureAirportCode" : "DUB",
+
+  "arrivalAirportCode" : "FRA",
+
+  "departureDateTime" : "2025-07-15 00:12",
+
+  "arrivalDateTime" : "2025-07-15 05:00",
+
+  "price" : 15.99
+
+}
+
+### find all flights
+GET localhost:8899/api/v1/flights
+
+### find flight by number
+GET localhost:8899/api/v1/flights/AA144
+
+### update flight
+PUT localhost:8899/api/v1/flights
+Content-Type: application/json
+Authorization: Bearer {{access_token}}
+
+{
+
+  "airplaneId" : 2,
+
+  "number" : "AA133",
+
+  "departureAirportCode" : "FRA",
+
+  "arrivalAirportCode" : "DUB",
+
+  "departureDateTime" : "2025-07-15 00:44",
+
+  "arrivalDateTime" : "2025-07-15 05:44",
+
+  "price" : 10.99
+
+}
+
+### delete flight by number
+DELETE localhost:8899/api/v1/flights/AA133
+Authorization: Bearer {{access_token}}
+
+### create a flight
+POST localhost:8899/api/v1/flights
+Content-Type: application/json
+Authorization: Bearer {{access_token}}
+
+{
+
+  "airplaneId" : 1,
+
+  "number" : "AA403",
+
+  "departureAirportCode" : "GYD",
+
+  "arrivalAirportCode" : "BUD",
+
+  "departureDateTime" : "2025-11-15 00:12",
+
+  "arrivalDateTime" : "2025-11-15 05:00",
+
+  "price" : 15.99
+
+}
