@@ -1,4 +1,4 @@
-### Fetch Datasources of Loki
+### fetch datasources of Loki
 GET localhost:3000/api/datasources
 Accept: application/json
 Content-Type: application/json

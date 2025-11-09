@@ -96,5 +96,8 @@ GET localhost:8001/actuator/metrics
 ### request actuator "jvm.memory.used" metrics
 GET localhost:8001/actuator/metrics/jvm.memory.used
 
-### request actuator metrics via Prometheus
+### request actuator metrics in OpenMetrics format
 GET localhost:8001/actuator/prometheus
+
+### request actuator Liquibase migrations
+GET localhost:8001/actuator/liquibase
