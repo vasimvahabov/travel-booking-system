@@ -104,3 +104,8 @@ GET localhost:8001/actuator/liquibase
 
 ### request actuator application info
 GET localhost:8001/actuator/info
+
+### request actuator heap dump
+GET localhost:8001/actuator/heapdump
+
+>> ./heapDump.bin
