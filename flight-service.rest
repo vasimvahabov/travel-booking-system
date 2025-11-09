@@ -1,7 +1,7 @@
 ### create a flight
-POST localhost:8899/api/v1/flights
+POST localhost:8001/api/v1/flights
 Content-Type: application/json
-Authorization: Bearer {{access_token}}
+Authorization: Bearer {{keycloak.access_token}}
 
 {
 
@@ -22,15 +22,15 @@ Authorization: Bearer {{access_token}}
 }
 
 ### find all flights
-GET localhost:8899/api/v1/flights
+GET localhost:8001/api/v1/flights
 
 ### find flight by number
-GET localhost:8899/api/v1/flights/AA144
+GET localhost:8001/api/v1/flights/AA144
 
 ### update flight
-PUT localhost:8899/api/v1/flights
+PUT localhost:8001/api/v1/flights
 Content-Type: application/json
-Authorization: Bearer {{access_token}}
+Authorization: Bearer {{keycloak.access-token}}
 
 {
 
@@ -50,22 +50,10 @@ Authorization: Bearer {{access_token}}
 
 }
 
-### delete flight by number
-DELETE localhost:8899/api/v1/flights/AA133
-Authorization: Bearer {{access_token}}
-
-### request app info
-GET localhost:8899/app/info
-Authorization: Bearer {{access_token}}
-
-### post request actuater refresh
-POST localhost:8899/actuator/refresh
-Authorization: Bearer {{access_token}}
-
 ### create a flight
-POST localhost:8899/api/v1/flights
+POST localhost:8001/api/v1/flights
 Content-Type: application/json
-Authorization: Bearer {{access_token}}
+Authorization: Bearer {{keycloak.access-token}}
 
 {
 
@@ -84,3 +72,29 @@ Authorization: Bearer {{access_token}}
   "price" : 15.99
 
 }
+
+### delete flight by number
+DELETE localhost:8001/api/v1/flights/AA133
+Authorization: Bearer {{keycloak.access-token}}
+
+### request app info
+GET localhost:8001/app/info
+Authorization: Bearer {{keycloak.access-token}}
+
+### request actuator refresh
+POST localhost:8001/actuator/refresh
+
+### request actuator health
+GET localhost:8001/actuator/health
+
+### request actuator liveness check
+GET localhost:8001/actuator/health/liveness
+
+### request actuator metrics
+GET localhost:8001/actuator/metrics
+
+### request actuator "jvm.memory.used" metrics
+GET localhost:8001/actuator/metrics/jvm.memory.used
+
+### request actuator metrics via Prometheus
+GET localhost:8001/actuator/prometheus
