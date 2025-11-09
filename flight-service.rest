@@ -101,3 +101,6 @@ GET localhost:8001/actuator/prometheus
 
 ### request actuator Liquibase migrations
 GET localhost:8001/actuator/liquibase
+
+### request actuator application info
+GET localhost:8001/actuator/info
