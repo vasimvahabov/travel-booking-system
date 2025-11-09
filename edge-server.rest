@@ -1,0 +1,8 @@
+### request actuator health
+GET localhost:8003/actuator/health
+
+### request actuator liveness check
+GET localhost:8003/actuator/health/liveness
+
+### request actuator readiness check
+GET localhost:8003/actuator/health/readiness
