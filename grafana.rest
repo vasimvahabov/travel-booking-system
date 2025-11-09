@@ -1,0 +1,5 @@
+### Fetch Datasources of Loki
+GET localhost:3000/api/datasources
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer {{grafana.service-account-token}}
