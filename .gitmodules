@@ -16,6 +16,6 @@
 [submodule "travel-booking-system-payment-service"]
 	path = travel-booking-system-payment-service
 	url = ../travel-booking-system-payment-service.git
-[submodule "travel-booking-system-config-service"]
-	path = travel-booking-system-config-service
-	url = ../travel-booking-system-config-service.git
+[submodule "travel-booking-system-config-server"]
+	path = travel-booking-system-config-server
+	url = ../travel-booking-system-config-server.git
