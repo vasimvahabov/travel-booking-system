@@ -90,6 +90,9 @@ GET localhost:8001/actuator/health
 ### request actuator liveness check
 GET localhost:8001/actuator/health/liveness
 
+### request actuator readiness check
+GET localhost:8001/actuator/health/readiness
+
 ### request actuator metrics
 GET localhost:8001/actuator/metrics
 
